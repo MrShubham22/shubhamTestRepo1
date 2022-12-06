@@ -1,6 +1,5 @@
 name: Testing Mergability
-on: 
-  pull_request: 
+on: [pull_request]
 jobs:
   Test:
     name: "Testing Builds"
